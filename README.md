@@ -16,5 +16,5 @@ The form should contain the following elements:
 2. Build a docker image:
    ```docker build -t gradio_stable_diffusion_2.1 -f docker/app/dockerfile .```
 3. Run the assembled docker container:
-   ```docker run gradio_stable_diffusion_2.1```
-4. Navigate to the ___ and enjoy to use!
+   ```docker run --gpus all gradio_stable_diffusion_2.1```
+5. Navigate to the ___ and enjoy to use!
