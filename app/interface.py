@@ -1,9 +1,9 @@
 import gradio as gr
-from model import Model
+from model import SD_XL
 
 
 def main():
-    model = Model()
+    model = SD_XL()
         
     image = gr.Image()
     prompt_textbox = gr.Textbox(label='Prompt')
